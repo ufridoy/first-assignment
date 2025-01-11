@@ -1,0 +1,297 @@
+.fira-sans-regular{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: rgba(241, 241, 243, 1);
+}
+*{
+    margin: 0%;
+    padding: auto;
+}
+nav{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+    margin: 0% auto;
+}
+.nav-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+}
+.nav-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 106, 80, 1);
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 1px rgba(0, 106, 80, 1) solid;
+}
+.banner-container{
+    width: 1280px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding-right: 60px; */
+    margin: 0 auto;
+    background-color: rgba(198, 228, 214, 1);
+    border-radius: 24px;
+}
+.header-banner{
+    width: 622px;
+    padding-top: 117px;
+    padding-left: 20px;
+    padding-bottom: 117px;
+}
+.header-bg{
+    padding-right: 20px;
+}
+.banner-sub-header{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+.banner-main-header{
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.banner-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: none;
+}
+.common-margin{
+    margin-bottom: 80px;
+}
+
+.common-head-div{
+    width: 1280px;
+    margin: 0% auto;
+    margin-bottom: 32px;
+}
+.common-head-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 24px;
+}
+.common-head-description{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.second-third-div{
+    width: 1280px;
+    display: flex;
+    margin: 0% auto;
+    gap: 24px;
+    margin-bottom: 32px;
+
+}
+.future-div-info{
+    width: 410px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+    border: none;
+    border-radius: 16px;
+}
+.card-info-head{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 34px;
+    margin-bottom: 12px;
+}
+.card-info-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.card-blue-btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    color: white;
+    background-color: rgba(84, 144, 245, 1);
+    border: none;
+    border-radius: 8px;
+}
+
+.second-third-last-div{
+    width: 1232px;
+    position: relative;
+    background-color: white;
+    margin: 0% auto;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.muhammad-yunus-about{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.self-yunus{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.yunus-title{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
+}
+.satelite-container{
+    width: 1184px;
+    margin: 0% auto;
+    display: flex;
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+.satelite-contain-box{
+    width: 744px;
+}
+.satelite-image{
+    width: 408px;
+    border-radius: 24px;
+    margin-right: 32px;
+}
+
+.satelite-box-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.satelite-box-image{
+    margin-bottom: 12px;
+}
+.satelite-box-time{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+.satelite-box-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.read-btn{
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+}
+.donate-container{
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
+}
+.donate-content{
+    width: 1071px;
+    margin: 0% auto;
+    text-align: center;
+}
+.donate-input-box{
+    width: 952px;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+    padding: 20px 40px;
+    text-align: center;
+}
+.center-align{
+    text-align: center;
+}
+.donate-btn-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.done-now-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    border: 1px rgba(14, 14, 14, 0.1) solid;
+}
+.donate-btns{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    border: 1px rgba(14, 14, 14, 0.15) solid;
+    border-radius: 16px;
+    padding: 40px;
+    background-color: white;
+}
+.donate-btn-box-margin{
+    margin-bottom: 32px;
+}
+
+
+.newslatter-container{
+    width: 1280px;
+    display: flex;
+    
+    border-radius: 24px;
+    background-color: rgba(198, 228, 214, 1);
+}
+.newslatter-content{
+    padding: 80px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newslatter-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.newslatter-description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+.newslatter-input{
+    display: flex;
+}
+.newslatter-input-field{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
+    width: 600px;
+    padding: 18px 0 18px 40px;
+    border: none;
+    border-radius: 10px 0 0 10px;
+}
+.newslatter-input-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 106, 80, 1);
+    padding: 17px 34px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
