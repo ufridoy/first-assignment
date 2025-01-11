@@ -205,6 +205,7 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 0% auto;
+    margin-bottom: 80px;
 }
 .donate-content{
     width: 1071px;
@@ -252,6 +253,9 @@ nav{
 .newslatter-container{
     width: 1280px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0% auto;
     
     border-radius: 24px;
     background-color: rgba(198, 228, 214, 1);
@@ -276,7 +280,7 @@ nav{
     margin-bottom: 24px;
 }
 .newslatter-input{
-    display: flex;
+    margin-bottom: 24px;
 }
 .newslatter-input-field{
     font-size: 16px;
@@ -294,4 +298,10 @@ nav{
     padding: 17px 34px;
     border: none;
     border-radius: 0 10px 10px 0;
+}
+
+last-para{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
 }
