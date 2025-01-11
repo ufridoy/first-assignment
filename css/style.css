@@ -305,3 +305,26 @@ last-para{
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
 }
+
+.footer-contain{
+    width: 1280px;
+    justify-content: center;
+    text-align: center;
+    margin: 0% auto;
+    padding: 50px 160px;
+}
+.footer-head{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-bottom: 32px;
+}
+.social-media-link{
+    width: 140px;
+    display: flex;
+    margin: 0% auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    gap: 23px;
+}
