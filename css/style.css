@@ -31,6 +31,10 @@ nav{
     border-radius: 8px;
     border: 1px rgba(0, 106, 80, 1) solid;
 }
+.nav-btn:hover{
+    background-color: red;
+    color: white;
+}
 .banner-container{
     width: 1280px;
     display: flex;
@@ -70,6 +74,9 @@ nav{
     color: white;
     border: none;
 }
+.banner-btn:hover{
+    background-color: brown;
+}
 .common-margin{
     margin-bottom: 80px;
 }
@@ -100,10 +107,18 @@ nav{
 }
 .future-div-info{
     width: 410px;
-    background-color: rgba(84, 144, 245, 0.2);
     padding: 32px;
     border: none;
     border-radius: 16px;
+}
+.bg-color-one{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.bg-color-two{
+    background-color: rgba(198, 228, 214, 1); 
+}
+.bg-color-three{
+    background-color: rgba(247, 235, 207, 1);
 }
 .card-info-head{
     font-size: 20px;
@@ -118,15 +133,41 @@ nav{
     margin-bottom: 24px;
 }
 .card-blue-btn{
+    background-color: rgba(84, 144, 245, 1);
     font-size: 16px;
     font-weight: 600;
     padding: 11px 20px;
     color: white;
-    background-color: rgba(84, 144, 245, 1);
     border: none;
     border-radius: 8px;
 }
-
+.card-blue-btn:hover{
+    background-color: brown;
+}
+.card-green-button{
+    background-color: rgba(9, 161, 92, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.card-green-button:hover{
+    background-color: red;
+}
+.card-yellow-btn{
+    background-color: rgba(255, 194, 57, 1);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.card-yellow-btn:hover{
+    background-color: blue;
+}
 .second-third-last-div{
     width: 1232px;
     position: relative;
@@ -198,6 +239,9 @@ nav{
     border-radius: 8px;
     padding: 13px 26px;
 }
+.read-btn:hover{
+    background-color: brown;
+}
 .donate-container{
     width: 1280px;
     display: flex;
@@ -236,6 +280,12 @@ nav{
     background-color: rgba(0, 106, 80, 1);
     color: white;
     border: 1px rgba(14, 14, 14, 0.1) solid;
+}
+.done-now-btn:hover{
+    background-color: tomato;
+}
+.hover-color:hover{
+    background-color: rgb(255, 251, 0);
 }
 .donate-btns{
     font-size: 40px;
@@ -303,7 +353,9 @@ nav{
     border: none;
     border-radius: 0 10px 10px 0;
 }
-
+.newslatter-input-btn:hover{
+    background-color: red;
+}
 .last-para{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
