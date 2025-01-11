@@ -206,6 +206,7 @@ nav{
     align-items: center;
     margin: 0% auto;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 .donate-content{
     width: 1071px;
@@ -244,6 +245,9 @@ nav{
     border-radius: 16px;
     padding: 40px;
     background-color: white;
+}
+.bg-color{
+    background-color: greenyellow;
 }
 .donate-btn-box-margin{
     margin-bottom: 32px;
@@ -300,7 +304,7 @@ nav{
     border-radius: 0 10px 10px 0;
 }
 
-last-para{
+.last-para{
     font-size: 16px;
     color: rgba(14, 14, 14, 0.7);
     text-align: center;
