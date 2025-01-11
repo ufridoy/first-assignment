@@ -10,6 +10,9 @@ body{
     margin: 0%;
     padding: auto;
 }
+
+
+/* nav style */
 nav{
     width: 1280px;
     display: flex;
@@ -35,6 +38,9 @@ nav{
     background-color: red;
     color: white;
 }
+
+
+/* banner style */
 .banner-container{
     width: 1280px;
     display: flex;
@@ -77,6 +83,9 @@ nav{
 .banner-btn:hover{
     background-color: brown;
 }
+
+
+/* common style */
 .common-margin{
     margin-bottom: 80px;
 }
@@ -97,6 +106,9 @@ nav{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
 }
+
+
+/* first section style */
 .second-third-div{
     width: 1280px;
     display: flex;
@@ -193,6 +205,9 @@ nav{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.6);
 }
+
+
+/* second section style */
 .satelite-container{
     width: 1184px;
     margin: 0% auto;
@@ -242,6 +257,9 @@ nav{
 .read-btn:hover{
     background-color: brown;
 }
+
+
+/* third section style */
 .donate-container{
     width: 1280px;
     display: flex;
@@ -304,6 +322,8 @@ nav{
 }
 
 
+
+/* fourth section style */
 .newslatter-container{
     width: 1280px;
     display: flex;
@@ -362,6 +382,9 @@ nav{
     text-align: center;
 }
 
+
+
+/* footer style */
 .footer-contain{
     width: 1280px;
     justify-content: center;
